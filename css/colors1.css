@@ -1,3 +1,9 @@
+body{
+    margin: 0px;
+}
+
+
+
 .cp-bg-gold{
     background-color: #ffc125;
 }
@@ -37,3 +43,27 @@
 .cp-text-lgreen{
     color: #458b74;
 }
+
+.carousel-inner{
+    max-height: 600px !important;
+}
+
+.dark{
+    background-color: #2f4f4f;
+    width: 100%;
+    height: 500px;
+}
+.light{
+    background-color: #ffc125;
+    width: 100%;
+    /* height: 300px; */
+}
+
+.footer{
+    background-color: #2f4f4f;
+    width: 100%;
+    height: 75px;
+}
+
+
+
