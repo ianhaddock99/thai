@@ -51,7 +51,7 @@ body{
 .dark{
     background-color: #2f4f4f;
     width: 100%;
-    height: 500px;
+    min-height: 500px;
 }
 .light{
     background-color: #ffc125;
@@ -65,5 +65,40 @@ body{
     height: 75px;
 }
 
+h5{
+    font-size: 50px;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mont{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.toggle-menu{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .toggle-menu{
+        display: block;
+    }
+
+    #navbarNav {
+        display: none !important;
+    }
+
+    #carouselExampleIndicators {
+        margin-top: 72px !important;
+    }
+
+    h5{
+        display: none;
+    }
+}
 
 
