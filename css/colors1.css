@@ -79,6 +79,7 @@ h5{
     display: none;
 }
 
+
 @media only screen and (max-width: 600px) {
     .card {
         margin-bottom: 30px;
